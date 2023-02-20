@@ -1,0 +1,42 @@
+
+<app-navbar></app-navbar>
+<div class="updateplayercontainer b-o">
+<div class="text-center"><h1>Football Players.UI</h1>
+</div>
+
+<div class="d-flex flex-row justify-content-start ">
+    <div class="formmargin">
+    <h3> Create Player </h3><br>
+    <form #form="ngForm" (ngSubmit)="addPlayer()">
+
+         <div class="form-group">
+            <label for="playerName"> Player Name</label>
+            <input type="text" class="form-control" id="playerName" name = "playerName"
+            [(ngModel)] ="playerReq.playerName" >
+        </div>
+        <div class="form-group">
+            <label for="teamName"> Team Name</label>
+            <input type="text" class="form-control" id="teamName" name = "teamName"
+            [(ngModel)] ="playerReq.teamName" >
+        </div>
+        <div class="form-group">
+            <label for="playerGoals"> Player Goals</label>
+            <input type="text" class="form-control" id="playerGoals" name = "playerGoals"
+            [(ngModel)] ="playerReq.playerGoals" >
+        </div>
+        <div class="form-group">
+            <label for="playerRole"> Player Role</label>
+            <input type="text" class="form-control" id="playerRole" name = "playerRole"
+            [(ngModel)] ="playerReq.playerRole" >
+        </div>
+         
+        <div class="text-center">
+
+            
+            <button class="btn btn-dark mt-3" routerLink="/players-list"> Back</button>
+            <button   type="submit"class="btn btn-success mt-3 backbutton">Submit</button>
+        </div>
+    </form>
+</div>
+</div>
+</div>

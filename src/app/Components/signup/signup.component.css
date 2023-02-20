@@ -1,0 +1,11 @@
+.formbackground{
+    background-image:linear-gradient(rgb(91, 250, 91),white);
+    width:300px; 
+    align-items:center;
+     border-radius:10px;
+}
+.signup{
+    background-image: url("/assets/images/ground.png");
+    height: 100vh;
+    background-size:cover;
+}

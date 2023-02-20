@@ -1,0 +1,24 @@
+.btn{
+    margin-right: 5px;
+}
+.playerslistcontainer{
+    background-image: url("/assets/images/goal.png");
+    background-image: 50px;
+    width:100vw;
+    height: 100vh;
+    background-size:cover;
+    
+}
+
+.td{
+    background-color: black;
+    color: azure;
+}
+
+tr:hover{
+    background-color:lightblue;
+}
+.b-o{
+    font-size: 15px;
+    font-weight: bold;
+}

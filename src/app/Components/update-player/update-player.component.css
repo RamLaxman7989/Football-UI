@@ -1,0 +1,22 @@
+.formmargin{
+    margin-left:250px;
+    width: 400px;
+
+}
+.b-o{
+    background-image: url('https://image.cnbcfm.com/api/v1/image/107125567-1664360758362-gettyimages-1243460708-ama_iran_uruguay_rjb_124.jpeg?v=1669012001&w=1920&h=1080');
+    height: 100vh;
+    background-size: cover;
+}
+
+label{
+    font-weight: bold;
+    color: gold;
+    
+}
+
+.backbutton{
+    margin-right:40px;
+    margin-top:15px;
+    background-color:black;
+}

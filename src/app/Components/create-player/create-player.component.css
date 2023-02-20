@@ -1,0 +1,14 @@
+.formmargin{
+    margin-left:250px;
+    width: 300px;
+}
+.updateplayercontainer{
+    background-image: url("C:\Users\RamakanthDakuri\Football\Football.UI\src\assets\images\footballcup.png");
+    background-size:cover;
+    height:100vh;
+}
+.backbutton{
+    margin-left:40px;
+    margin-top:15px;
+    background-color:green;
+}

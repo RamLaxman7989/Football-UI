@@ -1,0 +1,24 @@
+<div class="container-outer">
+    <div class="container text-center">
+        <h1 class="pt-1">Login</h1>
+        <div class="row p-2 display-flex flex-row justify-content-center">
+            <form >
+                <div class="col-12">
+                    <input type="text" class="form-control" [(ngModel)]="login.username"  id="username"placeholder="Username" name="username">
+                </div>
+                <div class="col-12 mt-3 mb-3">
+                    <input type="password" class="form-control" [(ngModel)]="login.password" id="password" placeholder="Password" name="password">
+                </div>
+                <a class="forget">Forget Password?</a>
+                <div>
+                <button (click)="handleLogin()" type="submit"  class="btn btn-primary mt-2">Save</button>
+            </div>
+            <span>Don't Have an Account
+                <a routerLink="/signup">Signup</a>
+            </span>
+            </form>
+        </div>
+    </div>
+
+</div>
+
